@@ -9,7 +9,7 @@ class ApiCase(object):
         self.insert_url = BASE_URL + "/api/sys/user"
         self.other_url = BASE_URL + "/api/sys/user/{}"
 
-    # 添加
+    # 添   加
     def insert_user(self,username,mobile,worknumber):
         data = {"username": username,
                  "mobile": mobile,
