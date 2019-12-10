@@ -16,7 +16,7 @@ class ApiEmployee():
         data = {"username": username,
                 "mobile": mobile,
                 "workNumber": workNumber}
-        # 调用post方法
+        # 调用post   方法
         return requests.post(url=self.add_url,json=data,headers=api.header)
     # 修改员工
     def update_user(self,username):
